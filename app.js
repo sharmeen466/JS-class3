@@ -234,3 +234,278 @@
 // else if(operation === "%"){
 //     alert(number1 % number2)
 // }
+
+
+//....................................chap # 9 - 11 completed...........................................
+
+//....................................chap # 12 - 13 start...........................................
+
+
+//    Q    #    1
+
+//    Q    #    2
+
+
+// let number1 = +prompt("Enter 1st integer")
+// let number2 = +prompt("Enter 2nd integer")
+
+// if(number1 < number2){
+//     alert(number2 + " is larger")
+// }
+// else if (number1 > number2){
+//     alert(number1 +" is larger")
+// }
+// else {
+//     alert(number1 + " and "+ number2 + " both are Equal !")
+// }
+
+
+//    Q    #    3
+
+
+// let number = +prompt("Enter a number. positive/Negative")
+
+// if (number > 0){
+//     alert("Your number is Positive")
+// }
+// else if (number < 0){
+//     alert("Your number is Negative")
+// }
+// else {
+// alert("Your number is 0")
+// }
+// }
+
+
+//    Q    #    4
+
+
+// let character = prompt("Enter a charactor. will tell you, vowel or not")
+
+// if (character === "a" ||character === "A" || character === "e" ||character === "E" ||character === "i" ||character === "I" ||character === "o" ||character === "O" ||character === "u" ||character === "U"){
+// alert("True! "+ character +" is vowel")
+// }
+// else{
+//     alert("False! "+ character + "is not vowel")
+// }
+
+
+//    Q    #    5
+
+
+// let password = "sharmeen"
+// let userPassword = prompt("Enter a password")
+
+// if (userPassword == ''){
+//     alert("“Please enter your password”")
+// }
+// else if (userPassword === password){
+//     alert("“Correct! The password you entered matches the original password”.")
+// }
+// else {
+//     alert("“Incorrect password”")
+// }
+
+
+//    Q    #    6
+
+
+// This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+// var greeting;
+// let userHour = +prompt("Time btao")
+// if (userHour < 18) {
+// greeting = "Good day";
+// alert(greeting)
+// }
+// else{
+// greeting = "Good evening";
+// alert(greeting)
+// }
+
+
+//    Q    #    7
+
+
+// let userTime = +prompt("Please enter the time in  24 hour \n clock format like: 19:00 = 7pm.")
+
+// if(userTime >= 0 && userTime < 1200){
+//     alert("Good Morning!")
+// }
+// else if (userTime >= 1200 && userTime < 1700) {
+//     alert("Good Afternoon!")
+// }
+// else if (userTime >= 1700 && userTime < 2100) {
+//     alert("Good Evening!")
+// }
+// else if (userTime >= 2100 && userTime < 2359) {
+//     alert("Good Night!")
+// }
+//else {
+//     alert("Invalid value")
+//}
+
+
+//....................................chap # 12 - 13 completed...........................................
+
+//....................................chap # 14 - 16 start...........................................
+
+
+//    Q    #    1
+
+// let studentNames = [];
+
+
+//    Q    #    2
+
+// let studentNames = new Array();
+
+
+//    Q    #    3
+
+// let names = ["sharmmen", "zainab", "maryam"]
+
+
+//    Q    #    4
+
+
+// let number = [5 , 10 , 15 , 20 , 25];
+
+
+//    Q    #    5
+
+// let boolean = ["true", "false"];
+
+
+//    Q    #    6
+
+// let mixedArray = ["sharmeen", "23", "true"];
+
+
+//    Q    #    7
+
+// let education = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
+
+//  document.write("<h1> Qualifications </h1> <br> 1)  "+ education[0]+ "<br> 2)  "+ education[1] + "<br> 3)  "+ education[2] + "<br> 4)  "+ education[3] + "<br> 5)  "+ education[4] + "<br> 6)  "+ education[5] + "<br> 7)  "+ education[6] + "<br> 8)  "+ education[7])
+
+
+//    Q    #    8
+
+// let studentsNames =["Michael", "John", "Tony"];
+// let score = [350 , 320, 280];
+// let total = 500;
+// let percentage1 = (score[0] / total)*100; 
+// let percentage2 = (score[1] / total)*100; 
+// let percentage3 = (score[2] / total)*100; 
+// document.write("Score of "+studentsNames[0]+ " is "+ score[0]+ ". " + "percentage: " + percentage1 + "% <br>")
+// document.write("Score of "+studentsNames[1]+ " is "+ score[1]+ ". " + "percentage: " + percentage2 + "% <br>")
+// document.write("Score of "+studentsNames[2]+ " is "+ score[2]+ ". " + "percentage: " + percentage3 + "% <br>")
+
+
+//    Q    #    9
+
+// let colors = ["Red" , "Blue" , "Black" , "Pink" , "Yellow"];
+
+// a:
+// let userColor = prompt("what color you wants to add to the beginning?")
+// colors.unshift (userColor)
+// document.write ("updated array: " + colors);
+
+// b:
+// let userColorEnd = prompt("what color you wants to add to the end?")
+// colors.push  (userColorEnd)
+// document.write ("updated array: " + colors);
+
+// c;
+// let addColor1 = prompt("Add first color in the beginning of Array")
+// let addColor2 = prompt("Add second color in the beginning of Array")
+// colors.unshift  (addColor1 , addColor2)
+// document.write ("updated array: " + colors);
+ 
+// d;
+// colors.shift()  
+// document.write ("updated array: " + colors);
+ 
+// e;
+// colors.pop()  
+// document.write ("updated array: " + colors);
+
+// f;
+// let userColorAdd = prompt("which color name do you want to add?")
+// let userIndexAdd = +prompt("write index number where you to add your color")
+
+// g;
+
+
+//    Q    #    10
+
+// let studentsScore = [250, 300, 350, 400, ]
+
+
+//    Q    #    11
+
+// let city = ["Karachi", "Islamabad", "Lahore", "Quetta", "Peshawar"]
+// let selectedCities = city.slice(1 , 4)
+// document.write("<h3> Cities List: </h3> <br>"+ city + "<br> <br> <br> <h3> Selected Cities List: </h3> <br>"+  selectedCities)
+
+
+//    Q    #    12
+
+// let array = ["This ", "is ", "my ", "cat "];
+// let string = array.join ("")
+// document.write ("<h3> Array: </h3>" + array + "<br> <h3> Sting: </h3>" + string)
+
+
+//    Q    #    13
+
+// let devices = ["Keyboard", "Mouse", "printer", "monitor"]
+// let out;
+// document.write("<h3> Devices: </h3> <br>" + devices + "<br> <br>")
+
+// out = devices.shift()
+// document.write("Out: <br>" + out + "<br>")
+// out = devices.shift()
+// document.write("Out: <br>" + out + "<br>")
+// out = devices.shift()
+// document.write("Out: <br>" + out + "<br>")
+// out = devices.shift()
+// document.write("Out: <br>" + out + "<br>")
+
+
+//    Q    #    14
+
+// let devices = ["Keyboard", "Mouse", "printer", "monitor"]
+// let out;
+// document.write("<h3> Devices: </h3> <br>" + devices + "<br> <br>")
+
+// out = devices.pop()
+// document.write("Out: <br>" + out + "<br>")
+// out = devices.pop()
+// document.write("Out: <br>" + out + "<br>")
+// out = devices.pop()
+// document.write("Out: <br>" + out + "<br>")
+// out = devices.pop()
+// document.write("Out: <br>" + out + "<br>")
+
+
+//    Q    #    15
+
+// let phones = ["Apple","Samsung", "Motorola"," Nokia"," Sony"," Haier"]
+
+// document.write("<select>")
+// document.write("<option>" + phones[0] + "</option <br>")
+// document.write("<option>" + phones[1] + "</option <br>")
+// document.write("<option>" + phones[2] + "</option <br>")
+// document.write("<option>" + phones[3] + "</option <br>")
+// document.write("<option>" + phones[4] + "</option <br>")
+// document.write("<option>" + phones[5] + "</option <br>")
+// document.write("</select>")
+
+//....................................chap # 14 - 16 completed...........................................
