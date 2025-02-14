@@ -91,19 +91,19 @@
 // }
 // document.write("<h1> Condition 1 </h1> <br> c = 12 <br> simplify: (c ++ = = = 13) <br> c ++ is c + 1 <br> c ++ is post increment (will show next console is 12 + 1 = 13) <br> Hence, 12 is not equal to 13 <br> so, the condition is <strong> FALSE </strong>")
 
-
+// d:
 // if (c === 13) {
 //     alert("condition 2 is true");
 // }
 // document.write("<h1> Condition 2 </h1> <br> find: (c = = = 13) <br> increment was done by condition 1 <br>so, c = 13 <br> and 13 is equals to 13 <br> Hence, the condition is <strong> True </strong>")
 
-
+// e:
 // if (++c < 14) {
 //     alert("condition 3 is true");
 // }
 // document.write("<h1> Condition 3 </h1> <br> find: (++ c < 14) <br> in condition 2, c is 13 but after again increment this will be 14 <br> but 14 is not larger than 14 <br> so, the condition (14 < 14) is <strong> FALSE </strong>")
 
-
+// f:
 // if (c === 14) {
 //     alert("condition 4 is true");
 // }
@@ -242,6 +242,27 @@
 
 
 //    Q    #    1
+
+
+// let character = prompt("Please enter your character to check whether the given input is a number, uppercase letter or lower case letter")
+// let value = character.charCodeAt(0)
+
+// // checking numbers
+// if (value >= 48 && value <= 57){
+//     alert(character + " is a number")
+// }
+
+// //checking uppercase letter
+// else if (value >= 65 && value <= 90){
+//     alert(character + " is Uppercase Letter")
+// }
+
+// //checking lowercase letter
+// else if (value >= 97 && value <= 122){
+//     alert(character + " is Lowercase Letter")
+// }
+
+
 
 //    Q    #    2
 
@@ -438,15 +459,23 @@
 // document.write ("updated array: " + colors);
 
 // f;
-// let userColorAdd = prompt("which color name do you want to add?")
-// let userIndexAdd = +prompt("write index number where you to add your color")
+// let index = +prompt("write index number where you want to add your color")
+// let userColor = prompt("And what's the color?")
+// colors.splice(index,0, userColor)
+// document.write("Updated Array: " + colors)
 
 // g;
+// let index = +prompt("which index you wants to delete color(s)?")
+// let count = +prompt("How many colors do yo want to delete?")
+// colors.splice(index, 0, count)
+// document.write("Updated Array :" + colors)
 
 
 //    Q    #    10
 
-// let studentsScore = [250, 300, 350, 400, ]
+// let studentsScore = [320, 230, 480, 120, ]
+// let sortedScore = studentsScore.sort()
+// document.write(sortedScore)
 
 
 //    Q    #    11
